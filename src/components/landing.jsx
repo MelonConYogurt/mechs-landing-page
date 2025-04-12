@@ -8,7 +8,7 @@ export default function Home() {
         <div className="flex items-center gap-2">
           <img
             src="https://pbs.twimg.com/media/Gk-yxatWQAAIA5M?format=png&name=900x900"
-            alt="Mechs Logo"
+            alt="Logo de Mechs"
             className="object-contain w-20 h-20"
           />
           <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
@@ -17,13 +17,13 @@ export default function Home() {
         </div>
         <nav className="hidden md:flex gap-6">
           <a href="#home" className="hover:text-purple-400 transition">
-            Home
+            Inicio
           </a>
           <a href="#about" className="hover:text-purple-400 transition">
-            About
+            Acerca de
           </a>
           <a href="#content" className="hover:text-purple-400 transition">
-            Content
+            Contenido
           </a>
           <a href="#social" className="hover:text-purple-400 transition">
             Social
@@ -38,7 +38,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Watch Live
+            Ver en Vivo
           </a>
         </Button>
       </header>
@@ -49,12 +49,12 @@ export default function Home() {
       >
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Welcome to the world of{" "}
+            Bienvenido al mundo de{" "}
             <span className="text-purple-400">Mechs</span>
           </h1>
           <p className="text-lg text-gray-300">
-            League of Legends streamer, content creator, and VTuber bringing you
-            the best gaming entertainment.
+            Streamer de League of Legends, creador de contenido y VTuber que te
+            trae el mejor entretenimiento de gaming.
           </p>
           <div className="flex gap-4">
             <Button className="bg-purple-600 hover:bg-purple-700">
@@ -63,7 +63,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Follow on Twitch
+                Sígueme en Twitch
               </a>
             </Button>
             <Button variant="outline" className="border-purple-500 text-black">
@@ -72,7 +72,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                YouTube Channel
+                Canal de YouTube
               </a>
             </Button>
           </div>
@@ -89,14 +89,14 @@ export default function Home() {
 
       <section id="content" className=" mx-auto px-4 py-20  bg-black/30  ">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-          Latest <span className="text-purple-400">Content</span>
+          Último <span className="text-purple-400">Contenido</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-black/20 p-6 rounded-lg">
             <div className="flex items-center gap-3 mb-4">
               <Twitch className="w-8 h-8 text-purple-400" />
-              <h3 className="text-2xl font-bold">Twitch Streams</h3>
+              <h3 className="text-2xl font-bold">Streams de Twitch</h3>
             </div>
             <div className="aspect-video bg-gray-800 rounded-lg mb-4 overflow-hidden">
               <iframe
@@ -104,7 +104,7 @@ export default function Home() {
                 height="100%"
                 width="100%"
                 className="aspect-video"
-                title="Mechs Twitch Stream"
+                title="Stream de Twitch de Mechs"
                 allowFullScreen
               ></iframe>
             </div>
@@ -115,7 +115,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="w-full"
               >
-                Watch Live on Twitch
+                Ver en Vivo en Twitch
               </a>
             </Button>
           </div>
@@ -123,16 +123,15 @@ export default function Home() {
           <div className="bg-black/20 p-6 rounded-lg">
             <div className="flex items-center gap-3 mb-4">
               <Youtube className="w-8 h-8 text-purple-400" />
-              <h3 className="text-2xl font-bold">YouTube Videos</h3>
+              <h3 className="text-2xl font-bold">Videos de YouTube</h3>
             </div>
             <div className="aspect-video bg-gray-800 rounded-lg mb-4">
               <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/-4EUIqfm__8?si=I7AUc7K7318ZRotY"
-                title="YouTube video player"
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/-4EUIqfm__8?si=I7AUc7K7318ZRotY&mute=1&rel=0"
+                title="Reproductor de video de YouTube"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
@@ -144,7 +143,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="w-full"
               >
-                Subscribe on YouTube
+                Suscríbete en YouTube
               </a>
             </Button>
           </div>
@@ -154,7 +153,7 @@ export default function Home() {
       <section id="social" className=" py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-            Follow <span className="text-purple-400">Mechs</span>
+            Sigue a <span className="text-purple-400">Mechs</span>
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 max-w-3xl mx-auto">
@@ -214,20 +213,21 @@ export default function Home() {
       <section id="about" className="bg-black/30 py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-            About <span className="text-purple-400">Mechs</span>
+            Sobre <span className="text-purple-400">Mechs</span>
           </h2>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg text-gray-300 mb-6">
-              Mechs is a passionate League of Legends player and content creator
-              who brings energy and entertainment to every stream and video.
-              With a unique VTuber persona, Mechs creates engaging content
-              across multiple platforms including Twitch, YouTube, and social
-              media.
+              Mechs es un apasionado jugador de League of Legends y creador de
+              contenido que aporta energía y entretenimiento a cada stream y
+              video. Con una personalidad única de VTuber, Mechs crea contenido
+              atractivo en múltiples plataformas, incluyendo Twitch, YouTube y
+              redes sociales.
             </p>
             <p className="text-lg text-gray-300">
-              Whether you're looking for high-level gameplay, entertaining
-              commentary, or just a fun community to be part of, Mechs' channels
-              offer something for every League of Legends enthusiast.
+              Ya sea que estés buscando jugabilidad de alto nivel, comentarios
+              entretenidos o simplemente una comunidad divertida de la que
+              formar parte, los canales de Mechs ofrecen algo para cada
+              entusiasta de League of Legends.
             </p>
           </div>
         </div>
@@ -273,7 +273,8 @@ export default function Home() {
             </a>
           </div>
           <p className="text-gray-400">
-            © {new Date().getFullYear()} MechsLOL. All rights reserved.
+            © {new Date().getFullYear()} MechsLOL. Todos los derechos
+            reservados.
           </p>
         </div>
       </footer>
