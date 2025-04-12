@@ -126,11 +126,16 @@ export default function Home() {
               <h3 className="text-2xl font-bold">YouTube Videos</h3>
             </div>
             <div className="aspect-video bg-gray-800 rounded-lg mb-4">
-              <img
-                src="https://pbs.twimg.com/media/Gmc_ahbWcAAf-Zt?format=jpg&name=4096x4096"
-                alt="YouTube Video Thumbnail"
-                className="rounded-lg w-full h-full object-cover"
-              />
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/-4EUIqfm__8?si=I7AUc7K7318ZRotY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <Button className="w-full bg-purple-600 hover:bg-purple-700">
               <a
