@@ -100,7 +100,7 @@ export default function Home() {
             </div>
             <div className="aspect-video bg-gray-800 rounded-lg mb-4 overflow-hidden">
               <iframe
-                src="https://player.twitch.tv/?channel=lolmechs&parent=localhost"
+                src="https://player.twitch.tv/?channel=lolmechs&parent=mechs-landing-page.vercel.app/"
                 height="100%"
                 width="100%"
                 className="aspect-video"
